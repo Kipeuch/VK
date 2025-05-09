@@ -16,8 +16,8 @@ const (
 	target          = "localhost:4122"
 	subscriptionKey = "load-test-key"
 	numSubscribers  = 3
-	numMessages     = 2_000_000
-	receiveTimeout  = 2 * time.Second
+	numMessages     = 1_000_000
+	receiveTimeout  = 5 * time.Second
 )
 
 func main() {

@@ -52,7 +52,12 @@ go run ./cmd/service/main.go
 
 Шина и основной **UseCase** покрыты unit тестами.
 
+Сделан нагрузочный тест для проверки работы сервиса
+
 ### Логика работы сервиса:
+* [`cmd/load_test/`](cmd/load_test/)
+  Нагрузочный тест для сервиса.
+
 * [`internal/generated/service/`](internal/generated/service/)
   Сгенерированные gRPC-файлы.
 
